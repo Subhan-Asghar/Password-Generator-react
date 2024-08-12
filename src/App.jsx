@@ -58,6 +58,7 @@ useEffect(() => {
   <input type="text"
   className='bg-white text-pink-500 rounded-lg px-3 w-80 mx-1  outline-none'
   value={password}
+  placeholder='Password Genetator'
   readOnly />
   <button
     onClick={() => { navigator.clipboard.writeText(password) }}
